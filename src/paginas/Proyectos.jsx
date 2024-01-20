@@ -4,6 +4,7 @@ import Alerta from "../components/Alerta";
 const Proyectos = () => {
   const { proyectos, alerta } = useProyectos();
   const { msg } = alerta;
+
   return (
     <>
       <h1 className="text-4xl font-black">Proyectos</h1>
